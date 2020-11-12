@@ -1,10 +1,4 @@
 import React, { Component } from "react"
-import { Link } from "gatsby"
-
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
-
 import { Column } from 'simple-flexbox';
 
 class IndexPage extends Component{
@@ -12,7 +6,13 @@ class IndexPage extends Component{
     return(
 
       <Column>
-Hi
+        <div class="container">
+            <section class="cards">
+
+            First card
+
+            </section>
+        </div>
       </Column>
     )
   }
