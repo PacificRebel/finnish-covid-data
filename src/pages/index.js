@@ -12,6 +12,18 @@ class IndexPage extends Component{
             First card
 
             </section>
+
+            <section class="cards">
+
+            Second card
+
+            </section>
+
+            <section class="cards">
+
+            Third card
+
+            </section>
         </div>
       </Column>
     )
