@@ -8,17 +8,17 @@ class FirstCard extends Component {
       this.state = { covidData: [] }
   }
   componentDidMount() {
-    fetch(`https://sampo.thl.fi/pivot/prod/api/epirapo/covid19case.json`)
+    fetch(`https://sampo.thl.fi/pivot/prod/fi/epirapo/covid19case/fact_epirapo_covid19case.json?row=dateweek2020010120201231-443686&column=measure-141082`)
     .then(response => response.json())
     .then(data => {
-      this.setState({covidData: data})
+      this.setState({covidData: data["dataset"]})
     })
   }
 
   render() {
     return (
       <div className="firstcard">
-      {this.state.items.map((item) => <p>item</p>)}
+      {this.state.covidData.map((item) => <p>item</p>)}
     </div>
     )
   }

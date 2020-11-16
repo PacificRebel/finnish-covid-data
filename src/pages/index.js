@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import { Column } from 'simple-flexbox';
+import FirstCard from "../components/FirstCard"
 
 class IndexPage extends Component{
   render(){
@@ -9,7 +10,7 @@ class IndexPage extends Component{
         <div class="container">
             <section class="cards">
 
-            First card
+            <p><FirstCard /></p>
 
             </section>
 
