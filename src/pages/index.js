@@ -1,15 +1,16 @@
 import React, { Component } from "react"
 import { Column } from 'simple-flexbox';
 import FirstCard from "../components/FirstCard"
+import Layout from "../components/layout"
 
-class IndexPage extends Component{
-  render(){
-    return(
+const IndexPage = () => (
+  <Layout>
 
-      <Column>
         <div class="container">
             <section class="cards">
-
+            <div class="header">
+            <p><h2> THL Covid-19 data </h2></p>
+            </div>
             <p><FirstCard /></p>
 
             </section>
@@ -26,8 +27,7 @@ class IndexPage extends Component{
 
             </section>
         </div>
-      </Column>
+      </Layout>
     )
-  }
-}
+
 export default IndexPage

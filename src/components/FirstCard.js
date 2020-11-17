@@ -16,6 +16,13 @@ class FirstCard extends Component {
   }
 
   render() {
+    const data = this.state.covidData
+    console.log(data)
+    let label = ''
+    if (data.length > 0) {
+      label = data[0].label
+    }
+
     return (
       <div className="firstcard">
       {this.state.covidData.map((item) => <p>item</p>)}
