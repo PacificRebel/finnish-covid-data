@@ -11,6 +11,10 @@ const IndexPage = () => (
             <div class="header">
             <p><h2> THL Covid-19 data </h2></p>
             </div>
+            </section>
+
+            <section class="cards">
+            
             <p><FirstCard /></p>
 
             </section>

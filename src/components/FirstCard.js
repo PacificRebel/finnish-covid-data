@@ -25,7 +25,7 @@ class FirstCard extends Component {
 
     return (
       <div className="firstcard">
-      {this.state.covidData.map((item) => <p>item</p>)}
+      {this.state.covidData.map((item) => <p>First Card</p>)}
     </div>
     )
   }
