@@ -14,20 +14,20 @@ const IndexPage = () => (
             </section>
 
             <section class="cards">
-            
-            <p><FirstCard /></p>
+
+            <p><FirstCard />First Card</p>
 
             </section>
 
             <section class="cards">
 
-            Second card
+            <p>Second card</p>
 
             </section>
 
             <section class="cards">
 
-            Third card
+            <p>Third card</p>
 
             </section>
         </div>
