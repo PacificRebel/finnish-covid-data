@@ -8,7 +8,7 @@
   Finnish Covid-19 data app, built with Gatsby
 </h1>
 
-Building 🛠 a Gatsby site which calls the API for the Finnish Institute for Health and Welfare THL).  
+Building 🛠 a Gatsby site which calls the API for the Finnish Institute for Health and Welfare (THL).  
 
 https://thl.fi/en/web/thlfi-en/statistics/statistical-databases/open-data/confirmed-corona-cases-in-finland-covid-19-  
 
